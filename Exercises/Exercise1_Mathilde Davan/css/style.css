@@ -26,6 +26,7 @@ canvas{
     padding: 0;
     margin: auto;
     display: block;
+    /* position: absolute; */
     background:black;
     border: 2px dotted #999999;
     border-radius: 10px;

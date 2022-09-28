@@ -11,7 +11,7 @@ class Circle{
             0,
             ${Math.floor(Math.random()*230)},
             ${Math.floor(Math.random()*255)},
-            200
+            0.8
         )`;
 
         let possibleSpeedX = ((Math.random() * 1) + .1);
@@ -39,7 +39,7 @@ class Circle{
         thisContext.arc(this.x, this.y, this.radius, 0, Math.PI * 2, true);
         thisContext.fillStyle = `rgba(0,0,0,0)`;
         thisContext.fill();
-        thisContext.lineWidth = 2;
+        thisContext.lineWidth = 3;
         thisContext.strokeStyle = this.strokeColor;
         thisContext.stroke();
         thisContext.closePath();
