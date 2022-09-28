@@ -1,0 +1,33 @@
+body,input,p,div{
+    margin:0;
+    padding:0;
+  }
+
+.wrapper{
+    background:#f2f2f2;
+    color:#000000;
+
+    border: 2px dotted #999999;
+    border-radius: 10px;
+    height:100px;
+    padding:5px;
+ 
+}
+
+#text-file-section{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 30%;
+}
+
+canvas{
+    padding: 0;
+    margin: auto;
+    display: block;
+    background:black;
+    border: 2px dotted #999999;
+    border-radius: 10px;
+
+}
