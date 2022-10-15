@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>Leaflet Demo</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    
+        
+        <!-- Include the Leaflet CSS file -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+        crossorigin=""/> 
+        <!-- And then, include the Leaflet Javascript file AFTER the CSS -->
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+        crossorigin=""></script>
+    </head>
+    <body>
+        <div id="content">
+            <h1>Leaflet</h1>
+
+            <!-- add a div for where your map will be -->
+            <div class="map" id="map1"></div>
+
+            <br>
+            <hr>
+            <h2>Event listeners</h2>
+            <div class="map" id="map2"></div>
+
+            <br>
+            <hr>
+            <h2>Geolocation</h2>
+            <div class="map" id="map3"></div>
+            
+
+            <br><br>
+            <hr><hr>
+            <br>
+        </div>
+        
+        <script src="js/main.js"></script>
+    </body> 
+</html>

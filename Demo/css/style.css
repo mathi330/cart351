@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    background-color: #ffffff;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#content{
+    width: 40%;
+}
+
+h1{
+    line-height: 100px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+h2{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+a{
+    color: #6600cc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.map {
+    /* Set the map's width and height */
+    height: 400px;
+}
