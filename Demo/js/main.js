@@ -95,14 +95,14 @@ window.onload = function(){
     // Let's add a marker when we double click on the map (very similar to the popup we did above)
     let coordinateMarker = L.marker();
 
-    // function onMapDblClick(e){
-    //     // console.log("You double clicked the map at " + e.latlng);
+    function onMapDblClick(e){
+        // console.log("You double clicked the map at " + e.latlng);
 
-    //     coordinateMarker // take the marker we have created earlier
-    //     .setLatLng(e.latlng) // set the coordinates of the marker to the coordinates of the mouse when it was double clicked
-    //     .addTo(map2); // add the marker to the map
-    // }
-    // map2.on('dblclick', onMapDblClick); // when the map is double clicked, go through the onMapDblClick function
+        coordinateMarker // take the marker we have created earlier
+        .setLatLng(e.latlng) // set the coordinates of the marker to the coordinates of the mouse when it was double clicked
+        .addTo(map2); // add the marker to the map
+    }
+    map2.on('dblclick', onMapDblClick); // when the map is double clicked, go through the onMapDblClick function
 
 
 
