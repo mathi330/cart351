@@ -121,7 +121,16 @@ window.onload = function(){
     }).addTo(map3); // add tile layer to map
 
 
-    map3.locate({setView: true, maxZoom: 16}); // we locate the user and zoom in to their location
+    // a button to activate the geolocation only when needed and not right when the page is opened
+    let btn = document.getElementById('button'); // get my button from the html
+    btn.addEventListener("click", startGeolocation); // when it's clicked, do the function startGeolocation
+    // startGeolocation function
+    function startGeolocation(){
+
+        map3.locate({setView: true, maxZoom: 16}); // we locate the user and zoom in to their location
+    
+    }
+
 
     // what happens when we find the location
     function onLocationFound(e) {
