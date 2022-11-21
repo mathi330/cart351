@@ -77,15 +77,15 @@ window.onload = function(){
     // when clicking on the map, we want a popup with the coordinates to show up
     let coordinatePopup = L.popup(); // the popup
 
-    function onMapClick(e) {
-        // console.log("You clicked the map at " + e.latlng);
+    // function onMapClick(e) {
+    //     // console.log("You clicked the map at " + e.latlng);
 
-        coordinatePopup
-        .setLatLng(e.latlng) // set the coordinates of the popup to the coordinates of the mouse when it was clicked
-        .setContent("You clicked the map at " + e.latlng.toString()) // show the coordinates in the popup
-        .openOn(map2); // open the popup on the map
-    }
-    map2.on('click', onMapClick); // when the map is clicked, go through the onMapClick function
+    //     coordinatePopup
+    //     .setLatLng(e.latlng) // set the coordinates of the popup to the coordinates of the mouse when it was clicked
+    //     .setContent("You clicked the map at " + e.latlng.toString()) // show the coordinates in the popup
+    //     .openOn(map2); // open the popup on the map
+    // }
+    // map2.on('click', onMapClick); // when the map is clicked, go through the onMapClick function
 
 
     /*
